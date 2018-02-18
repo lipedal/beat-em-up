@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "5a523ee1-923c-453f-9b21-56928b9cf136",
+            "Value": {
+                "id": "65cbb700-b16e-446a-80cc-bb951cd87dcb",
+                "resourcePath": "objects\\obj_attack_strong_punch\\obj_attack_strong_punch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5bd610b1-b8e0-42f9-b357-c85deb393e87",
             "Value": {
                 "id": "c2958b39-348e-412c-b097-c6c8c0f05860",
@@ -300,6 +308,14 @@
                 "id": "b705c10d-97e2-489d-8da6-8e6c59bc435e",
                 "resourcePath": "views\\d9508cb3-1cdc-485d-a491-67cd48a9ffe8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1b31fee-58fd-424e-b2c8-f1c1e4f4dd02",
+            "Value": {
+                "id": "d4245031-dd94-4953-ad77-f3bdfd398990",
+                "resourcePath": "shaders\\sh_white\\sh_white.yy",
+                "resourceType": "GMShader"
             }
         },
         {

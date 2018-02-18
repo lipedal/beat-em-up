@@ -20,3 +20,4 @@ image_speed = .75;
 room_speed=60;
 
 global.hitbox=false;
+global.gamepad=false;
