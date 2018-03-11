@@ -1,5 +1,5 @@
-if (CurrentHP <= 0) 
-instance_destroy();
+//if (CurrentHP <= 0) 
+//instance_destroy();
 
 AttackType = "";
 //Move keys
@@ -7,6 +7,7 @@ key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
+key_interact = keyboard_check(ord("C"));
 //Gamepad
 if (global.gamepad=true)
 {
@@ -19,10 +20,6 @@ YSpeed = 0;
 XSpeed = 0;
 if (hascontrol)
 {
-		
-	
-	
-	
 	//Checks if either the A or D buttons are pressed to make the player move Left or Right.
 	var hmove = key_right - key_left;
 	XSpeed = hmove*Speed;
@@ -76,6 +73,9 @@ if (IsAttacking == false && IsHit = false)
 	{
 			sprite_index = s_player_walk;
 	}
+}
+else if(IsHit == true){
+    sprite_index = s_player_hit;
 }
 
 //If the player is on the ground, this sets their GroundY variable to their current y position

@@ -8,13 +8,13 @@ with (o_player)
 		if (other.side == "left")
 		{
 			x = 64;
-			y =	416;
+			//y =	416;
 			hascontrol=false;
 		}
 		else if (other.side == "right")
 		{
 			x = 960;
-			y =	416;
+			//y =	416;
 			hascontrol=false;
 		}
 		else if (other.side == "top")
