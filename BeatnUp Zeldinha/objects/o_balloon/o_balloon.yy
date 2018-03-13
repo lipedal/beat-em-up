@@ -1,5 +1,5 @@
 {
-    "id": "968c88c0-6ee2-4e89-84b8-690c3f6b28cd",
+    "id": "7e135121-be0d-490d-b0ab-68b2207e3a18",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_balloon",
@@ -12,7 +12,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "968c88c0-6ee2-4e89-84b8-690c3f6b28cd"
+            "m_owner": "7e135121-be0d-490d-b0ab-68b2207e3a18"
         },
         {
             "id": "d9030e19-249a-45c7-92f9-33f846f566be",
@@ -22,7 +22,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "968c88c0-6ee2-4e89-84b8-690c3f6b28cd"
+            "m_owner": "7e135121-be0d-490d-b0ab-68b2207e3a18"
         },
         {
             "id": "f66f4922-4084-4dc7-a30a-cc24ef09b8b8",
@@ -32,7 +32,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "968c88c0-6ee2-4e89-84b8-690c3f6b28cd"
+            "m_owner": "7e135121-be0d-490d-b0ab-68b2207e3a18"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4370d26c-7f5d-42ba-a5d4-fd09caaa061b",
+    "spriteId": "8f9ad401-342f-40cf-a40c-cb1b7ead1bd5",
     "visible": true
 }

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
+            "Value": {
+                "id": "f48cd0b8-304c-44f2-be26-70a7b5bf9b5e",
+                "resourcePath": "options\\ps4\\options_ps4.yy",
+                "resourceType": "GMPS4Options"
+            }
+        },
+        {
             "Key": "41539990-69d7-4de3-8fe1-433a2c73dc8f",
             "Value": {
                 "id": "438adece-b70d-45d6-a6f5-0873b31f30a4",
@@ -183,6 +191,46 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "bcb7a6bc-f8da-4f03-9fad-9cfa2cce813e",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
+            "Value": {
+                "id": "0e673638-8be2-46ba-92f2-23e28c25df16",
+                "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
+                "resourceType": "GMWindowsUAPOptions"
+            }
+        },
+        {
+            "Key": "7e135121-be0d-490d-b0ab-68b2207e3a18",
+            "Value": {
+                "id": "80ddc3ab-5ddd-4b58-9039-b8d48f6f02c7",
+                "resourcePath": "objects\\o_balloon\\o_balloon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "cc05a1dc-e303-4761-94a3-d94c91219aeb",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8691428e-9bcf-4c2e-9779-a02116975d56",
+            "Value": {
+                "id": "b836ac50-7576-42aa-b8c2-fa4fc21ae06a",
+                "resourcePath": "sprites\\s_talker\\s_talker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86fdaa45-ae9b-43d8-8eaa-70e2967ef8f7",
             "Value": {
                 "id": "fcd630e3-ecf3-4f96-8ad2-ae75a4a879d6",
@@ -231,6 +279,14 @@
             }
         },
         {
+            "Key": "8f9ad401-342f-40cf-a40c-cb1b7ead1bd5",
+            "Value": {
+                "id": "e8718db8-587b-4738-912d-c9ae2acbd6c9",
+                "resourcePath": "sprites\\s_speech\\s_speech.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90862fa9-2296-447d-9a2f-3ff1dfdf8749",
             "Value": {
                 "id": "661beb6a-167c-4dd8-9354-458954dd7b7d",
@@ -244,6 +300,14 @@
                 "id": "f250bdb0-ee19-46f1-a13c-d5b9070bdac8",
                 "resourcePath": "views\\9a393c47-d121-4687-a2c5-6f1b0d1ae4ae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1f93a11-3e7e-4118-84d2-681ac523e20a",
+            "Value": {
+                "id": "9d4daf21-3e1a-4fbd-8a78-e1a50b37d27b",
+                "resourcePath": "objects\\o_talker\\o_talker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -399,6 +463,14 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "0dd269db-1785-4c46-9ff6-d9c314387e6d",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "e492bfd6-1b02-45f6-ab31-2926e86e16bd",
             "Value": {
                 "id": "f9d53cf5-34f5-46a0-a6ad-5820f60ecc81",
@@ -452,6 +524,14 @@
                 "id": "ff66e8fa-ebd7-4a5e-a93d-8081c020ca3b",
                 "resourcePath": "views\\f7cd6c9f-f989-461d-8f7f-c1030251d05a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
+            "Value": {
+                "id": "9d843c83-0ac5-4935-9178-27177406e684",
+                "resourcePath": "options\\xboxone\\options_xboxone.yy",
+                "resourceType": "GMXBoxOneOptions"
             }
         },
         {

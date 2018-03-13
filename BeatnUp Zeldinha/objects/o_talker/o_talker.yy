@@ -1,5 +1,5 @@
 {
-    "id": "98757082-3715-4570-84c3-db8d3542ce2b",
+    "id": "a1f93a11-3e7e-4118-84d2-681ac523e20a",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_talker",
@@ -12,7 +12,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "98757082-3715-4570-84c3-db8d3542ce2b"
+            "m_owner": "a1f93a11-3e7e-4118-84d2-681ac523e20a"
         },
         {
             "id": "ec13e376-ee71-442a-98a1-0bfa56804717",
@@ -22,7 +22,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "98757082-3715-4570-84c3-db8d3542ce2b"
+            "m_owner": "a1f93a11-3e7e-4118-84d2-681ac523e20a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "bbf927aa-b85e-4b7e-8f67-50b9ef509bf2",
+    "spriteId": "8691428e-9bcf-4c2e-9779-a02116975d56",
     "visible": true
 }
