@@ -1,0 +1,1 @@
+ItemDrop(o_sword01,1,100, o_coin03,8,100, o_coin01,1,30, o_coin02,3,50);
