@@ -1,3 +1,4 @@
+depth = -1*y;
 if (StateType=="drop")
 {
 	speed=random_range(3,4);
@@ -40,22 +41,16 @@ if (ObjectType=="weapon")
 	{
 		if (o_player.key_interact)
 		{
-			if (o_player.WeaponEquiped=="none")
+			if (o_player.WeaponEquiped=="Punch")
 			{
-				o_player.WeaponEquiped="weapon01";
+				o_player.WeaponEquiped=Name;
 				o_player.weapon01=Name;
-				ObjectType="weaponpicked";
+				instance_destroy();
 			}
 		}
 	}
 }
 
-if (ObjectType=="weaponpicked")
-{
-	x=o_player.x;
-	y=o_player.y;
-}
 
-depth = -1*y;
 
 

@@ -12,10 +12,11 @@ MaxHP = 100;
 CurrentHP = MaxHP;
 IsHit = false;
  
+comboControl=true;
 OnGround = true;
 GroundY = y;
-
 hascontrol=true;
+
 
 image_speed = .75;
 
@@ -23,9 +24,10 @@ room_speed=60;
 
 global.hitbox=false;
 global.gamepad=false;
+instance_create_layer(x,y,"Instances",o_player_arm)
 
 #region //weapons type
-weapon01="none";
-weapon02="none";
-WeaponEquiped="none";
+weapon01="Punch";
+weapon02="Punch";
+WeaponEquiped="Punch";
 #endregion

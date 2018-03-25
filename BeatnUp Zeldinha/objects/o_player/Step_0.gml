@@ -8,6 +8,7 @@ key_right = keyboard_check(ord("D"));
 key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_interact = keyboard_check(ord("C"));
+key_attack01 = keyboard_check(ord("J"));
 //Gamepad
 if (global.gamepad=true)
 {
@@ -18,7 +19,8 @@ if (global.gamepad=true)
 }
 YSpeed = 0;
 XSpeed = 0;
-if (hascontrol)
+
+if (hascontrol && comboControl)
 {
 	//Checks if either the A or D buttons are pressed to make the player move Left or Right.
 	var hmove = key_right - key_left;
@@ -28,10 +30,10 @@ if (hascontrol)
 	var vmove = key_down - key_up;
 	YSpeed = vmove*Speed;
 	
-	//if (gamepad_button_check_pressed(0, gp_face1))
-	//{
-		
-	//}
+	if (YSpeed!=0 || XSpeed!=0)
+	o_player_arm.State="Moving";
+	else
+	o_player_arm.State="Stopped";
 }
 
 if (IsAttacking == false && IsHit = false)
@@ -87,21 +89,11 @@ if(OnGround == true)
 //Sets the Players' depth based on their GroundY. We're using GroundY instead of y so that even when they're in the air, they will display in fornt of and behind the right objects.
 depth = -1*GroundY;
 
-
-//Punches
-if (!IsAttacking)
+//Attack
+if (hascontrol && comboControl && key_attack01)
 {
-	if (keyboard_check(vk_numpad4) || keyboard_check(ord("J")) || keyboard_check(vk_left) || gamepad_button_check(0, gp_face3))
-	{
-	    AttackType = "Basic Punch";
-		if (OnGround)
-		event_user(2);
-	}
-
-	if(keyboard_check(vk_numpad8) || keyboard_check(ord("K")) || keyboard_check(vk_up) || gamepad_button_check(0, gp_face4))
-	{
-	    AttackType = "Strong Punch";
-		if (OnGround)
-		event_user(2);
-	}
+	comboControl=false;
+	o_player_arm.enablePunch=false;
+	o_player_arm.State="preAttacking";
 }
+
