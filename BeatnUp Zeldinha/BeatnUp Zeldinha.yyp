@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1fc7956e-bbb2-4ab7-b85e-080c1bd43a13",
+            "Value": {
+                "id": "f128da0f-2ead-444e-a609-0fe82a8ff8bc",
+                "resourcePath": "views\\1fc7956e-bbb2-4ab7-b85e-080c1bd43a13.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2468bd7e-020c-467c-8503-7b9a8e055c26",
             "Value": {
                 "id": "6ccc0513-aff3-4a72-9f92-501570fc1c53",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "552ebdde-9486-49b2-b81e-359b7e9e22b5",
                 "resourcePath": "sprites\\s_enemy_hit\\s_enemy_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c9737a3-c85d-4bc8-93c1-ad80a1b60550",
+            "Value": {
+                "id": "83bebf31-fd98-43a0-8f68-9a77399eea21",
+                "resourcePath": "sprites\\s_knife01\\s_knife01.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -660,6 +676,14 @@
                 "id": "69b65e36-24dd-42a1-8f8e-f30cd3b200e4",
                 "resourcePath": "views\\fc282d54-7c98-4d66-9c5c-59c6f101b23f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "feb88e03-bc55-4dd9-a4ea-ab74c16b81fd",
+            "Value": {
+                "id": "c74edbbf-156d-4bf1-a2bf-f23dce280be1",
+                "resourcePath": "sprites\\s_player_arm_knife01\\s_player_arm_knife01.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
