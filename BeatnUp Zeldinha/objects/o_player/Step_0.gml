@@ -9,6 +9,7 @@ key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_interact = keyboard_check(ord("C"));
 key_attack01 = keyboard_check(ord("J"));
+key_attack02 = keyboard_check(ord("K"));
 //Gamepad
 if (global.gamepad=true)
 {
@@ -90,8 +91,13 @@ if(OnGround == true)
 depth = -1*GroundY;
 
 //Attack
-if (hascontrol && comboControl && key_attack01)
+if (hascontrol && comboControl && (key_attack01 || key_attack02) && key_attack01!=key_attack02)
 {
+	if (key_attack01)
+	WeaponEquipedName=weapon01;
+	else if (key_attack02)
+	WeaponEquipedName=weapon02;
+	
 	comboControl=false;
 	o_player_arm.enablePunch=false;
 	o_player_arm.State="preAttacking";

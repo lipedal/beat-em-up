@@ -39,12 +39,27 @@ if (ObjectType=="weapon")
 {
 	if(position_meeting(x,y,o_player))
 	{
-		if (o_player.key_interact)
+		if (o_player.key_attack01)
 		{
-			if (o_player.WeaponEquiped=="Punch")
+			if (o_player.weapon01=="Punch")
 			{
-				o_player.WeaponEquiped=Name;
+				o_player.WeaponEquipedName=Name;
 				o_player.weapon01=Name;
+				o_player.weapon01Attack=attack;
+				o_player.weapon01Knockback=knockback;
+				o_player.weapon01IdleSprite=idleSprite;
+				instance_destroy();
+			}
+		}
+		if (o_player.key_attack02)
+		{
+			if (o_player.weapon02=="Punch")
+			{
+				o_player.WeaponEquipedName=Name;
+				o_player.weapon02=Name;
+				o_player.weapon02Attack=attack;
+				o_player.weapon02Knockback=knockback;
+				o_player.weapon02IdleSprite=idleSprite;
 				instance_destroy();
 			}
 		}

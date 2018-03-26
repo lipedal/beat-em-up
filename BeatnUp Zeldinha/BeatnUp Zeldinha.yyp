@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "72b1b7a5-393c-4894-a9b6-08e293b82f98",
+            "Value": {
+                "id": "d3a12f66-01b5-4fcb-a934-7bcec6af1e67",
+                "resourcePath": "sprites\\s_player_arm_attack_sword01\\s_player_arm_attack_sword01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74519604-9d0c-459e-994c-e57add61b9c5",
+            "Value": {
+                "id": "3e9df89a-d865-4b74-ba03-d6479b60af31",
+                "resourcePath": "objects\\o_weapon_controller\\o_weapon_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7546cf48-3ac0-4243-a471-32cc6012e9df",
             "Value": {
                 "id": "b049959a-6bbd-490d-a3d5-eee7e7a0160f",
@@ -340,6 +356,14 @@
                 "id": "9d4daf21-3e1a-4fbd-8a78-e1a50b37d27b",
                 "resourcePath": "objects\\o_talker\\o_talker.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a42c057f-80d2-4f64-a24c-919ef64aa8d7",
+            "Value": {
+                "id": "f62739e6-10c1-458f-88de-d91e6a16e0d1",
+                "resourcePath": "views\\a42c057f-80d2-4f64-a24c-919ef64aa8d7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -564,6 +588,14 @@
                 "id": "a509c1c9-c5e5-4639-afc6-dcbb4f93f982",
                 "resourcePath": "sprites\\s_player_hit\\s_player_hit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eee4b80d-128f-4010-a139-dab79f76498e",
+            "Value": {
+                "id": "2ad40731-80c5-419f-afb1-c732180e3e5a",
+                "resourcePath": "views\\eee4b80d-128f-4010-a139-dab79f76498e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

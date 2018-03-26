@@ -29,5 +29,14 @@ instance_create_layer(x,y,"Instances",o_player_arm)
 #region //weapons type
 weapon01="Punch";
 weapon02="Punch";
-WeaponEquiped="Punch";
+WeaponEquiped="weapon01";
+WeaponEquipedName="Punch";
 #endregion
+
+weapon01Attack=0;
+weapon01Knockback=0;
+weapon01IdleSprite=s_player_arm;
+
+weapon02Attack=0;
+weapon02Knockback=0;
+weapon02IdleSprite=s_player_arm;

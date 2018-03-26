@@ -11,6 +11,7 @@ y_control=0;
 Gravity=1;
 bounce=false;
 speed=random_range(2,4);
-
+attack=0;
+idleSprite=0;
 draw_xscale = 1;
 draw_yscale = 1;
