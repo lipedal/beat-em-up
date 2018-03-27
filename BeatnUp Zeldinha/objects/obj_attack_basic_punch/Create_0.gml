@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-knockback=3;
+knockback=0;
 

@@ -15,7 +15,7 @@ if(o_player.CurrentHP > 0){
  
     }
     
-    speed = 0;
+	Speed=0;
     State = "Attacking";
     Aggressiveness = 0;
     MyAttack.depth = depth;

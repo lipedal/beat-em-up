@@ -13,7 +13,7 @@ switch(State){
 	        image_xscale = sign(o_player.x-TargetX);
 	    }
      
-	    if(speed != 0){
+	    if(Speed != 0){
 	        sprite_index = s_enemy_walking
 	    }else{
 	        sprite_index = s_enemy_idle;
