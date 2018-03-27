@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "a32edf08-4af4-4517-b6b8-35805de15b06",
+            "Value": {
+                "id": "c8edd950-bc0c-446d-8aef-48f20a4aa1bf",
+                "resourcePath": "sprites\\s_player_arm_knife011\\s_player_arm_knife011.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a42c057f-80d2-4f64-a24c-919ef64aa8d7",
             "Value": {
                 "id": "f62739e6-10c1-458f-88de-d91e6a16e0d1",
