@@ -1,8 +1,3 @@
-if(OnGround == true)
-{
-    GroundY = y;
-}
-
 if (CurrentHP<=0)
 {instance_destroy();}
 
@@ -33,8 +28,8 @@ switch (State){
 		
 	case "Hit":
 		event_user(3);//Animate the Enemy
-		Speed = 0;
 		break;
+		
 	case "Queueing":
     event_user(3);//Animate the Enemy
     break;

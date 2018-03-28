@@ -2,6 +2,7 @@ TargetX = x;
 TargetY = y;
 friction=0.5;
 Speed = 3;
+MaxSpeed = Speed;
 flash=0;
  
 MaxHP = 80;

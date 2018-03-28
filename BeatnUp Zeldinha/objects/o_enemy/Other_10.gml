@@ -1,6 +1,5 @@
 ///Choose a State
- 
-var MyAction = floor(random(100));
+var MyAction = irandom(100)
  
 switch(State){
      
@@ -16,14 +15,14 @@ switch(State){
 		
 		case "PositionFront":
 		case "PositionBehind":
-		if(instance_place(TargetX,TargetY,o_enemy01) != noone && instance_place(TargetX,TargetY,o_enemy01) != id){
-		if(State == "PositionFront"){
-			State = "PositionBehind";
-		}else{
-		 
-		 State = "PositionFront";
+		// CHECK IF THIS WORKS
+		if(instance_place(TargetX,TargetY,o_enemy) != noone && instance_place(TargetX,TargetY,o_enemy) != id){
+			if(State == "PositionFront")
+				State = "PositionBehind";
+			else
+			State = "PositionFront";
 		}
-}
+/////////////////////////////////////////////////////////////////////////////////////////////////KEEP CHECKING		
 		if(ds_list_size(o_player.EnemyList) >= 2 && ds_list_find_index(o_player.EnemyList,id) == -1){
         State = "Queueing";
         Speed=0;
