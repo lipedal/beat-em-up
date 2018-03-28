@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3a25ed77-dc29-43de-9d5e-a9e33a692d16",
+            "Value": {
+                "id": "5f7e3e3a-729d-4f67-95e4-07984e822649",
+                "resourcePath": "scripts\\InstantiateBubble\\InstantiateBubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "f48cd0b8-304c-44f2-be26-70a7b5bf9b5e",
@@ -706,7 +714,8 @@
     "script_order": [
         "5bd610b1-b8e0-42f9-b357-c85deb393e87",
         "520a44b3-b16c-4d4b-82c7-842d88bb0a80",
-        "32a2a0a7-90ae-414b-92f7-7ff397b51827"
+        "32a2a0a7-90ae-414b-92f7-7ff397b51827",
+        "3a25ed77-dc29-43de-9d5e-a9e33a692d16"
     ],
     "tutorial": ""
 }
