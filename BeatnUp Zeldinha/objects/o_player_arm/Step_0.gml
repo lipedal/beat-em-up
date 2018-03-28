@@ -44,6 +44,10 @@ switch (State){
 			case "sword01":
 			sprite_index = s_player_arm_sword01;
 			break;
+			
+			case "knife01":
+			sprite_index = s_player_arm_knife01;
+			break;
 		}
 	
 	break;
@@ -82,6 +86,17 @@ switch (State){
 			case "Sword01":
 			if (alarm[0]<=0 && !enablePunch)
 			sprite_index = s_player_arm_attack_sword01;
+			//var MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
+			//if(MyAttack != 0)
+			//{
+			//    MyAttack.image_xscale = image_xscale;
+			//    MyAttack.image_speed = image_speed;
+			//    MyAttack.Owner = "Player";			
+			//}
+			break;
+			case "knife01":
+			if (alarm[0]<=0 && !enablePunch)
+			sprite_index = s_player_arm_attack_knife01;
 			//var MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
 			//if(MyAttack != 0)
 			//{
@@ -138,6 +153,18 @@ switch (State){
 			//    MyAttack.Owner = "Player";			
 			//}
 			break;
+			case "knife01":
+			if (alarm[0]<=0 && !enablePunch)
+			sprite_index = s_player_arm_attack_knife01;
+			var MyAttack=0;
+			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
+			//if(MyAttack != 0)
+			//{
+			//    MyAttack.image_xscale = image_xscale;
+			//    MyAttack.image_speed = image_speed;
+			//    MyAttack.Owner = "Player";			
+			//}
+			break;
 		
 		}
 		if (alarm[1]<=0 && !enablePunch){
@@ -181,6 +208,18 @@ switch (State){
 			//    MyAttack.Owner = "Player";			
 			//}
 			break;
+			case "knife01":
+			if (alarm[0]<=0 && !enablePunch)
+			sprite_index = s_player_arm_attack_knife01;
+			var MyAttack=0;
+			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
+			//if(MyAttack != 0)
+			//{
+			//    MyAttack.image_xscale = image_xscale;
+			//    MyAttack.image_speed = image_speed;
+			//    MyAttack.Owner = "Player";			
+			//}
+			break;
 		
 		}
 		if (alarm[1]<=0){
@@ -207,6 +246,10 @@ switch (State){
 			break;
 			
 			case "Sword01":
+			State = "Stopped";
+			break;
+			
+			case "knife01":
 			State = "Stopped";
 			break;
 		}
