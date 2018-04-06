@@ -1,8 +1,11 @@
 ///Attack Event
-if(o_player.alive){
+//Isso está funcionando mas vai precisar ser reescrito para fazer sistema de combos para os inimigos
+if(o_player.alive)
+{
  
     AttackChance = random(100); 
- 
+	var MyAttack=0;
+	
     if((Aggressiveness>.75 && AttackChance>= 90) || (Aggressiveness>1 && AttackChance>= 75)){
  
         sprite_index = s_player_spunch;

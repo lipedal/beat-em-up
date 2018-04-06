@@ -22,15 +22,17 @@ switch(State){
 			else
 			State = "PositionFront";
 		}
-/////////////////////////////////////////////////////////////////////////////////////////////////KEEP CHECKING		
+		//Se a lista for possuir mais de dois inimigos e esse inimigo não estiver na lista		
 		if(ds_list_size(o_player.EnemyList) >= 2 && ds_list_find_index(o_player.EnemyList,id) == -1){
         State = "Queueing";
-        Speed=0;
+        //Fica parado no Queueing, eventualmente isso precisa ser mudado para outro behavior
+		Speed=0;
     }
     break;
 	
 	case "Queueing":
-    if(ds_list_size(o_player.EnemyList) < 2){
+    //Se estiver em Queue e a lista passar a ter menos de dois inimigos, adiciona esse cara na lista
+	if(ds_list_size(o_player.EnemyList) < 2){
         ds_list_add(o_player.EnemyList, id);
         if(x < o_player.x){
             State = "PositionBehind";

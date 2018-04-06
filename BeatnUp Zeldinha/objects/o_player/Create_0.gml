@@ -16,6 +16,7 @@ comboControl=true;
 OnGround = true;
 GroundY = y;
 hascontrol=true;
+alive=true;
 
 
 image_speed = .75;
