@@ -7,5 +7,5 @@ draw_rectangle(20,20,262,40,false);
  
 if(CurrentHP > 0)
 {
-    draw_rectangle_colour(x-20,y-20,x+(40*(CurrentHP/MaxHP)),20,c_green,c_lime,c_lime,c_green,false);
+    draw_rectangle_colour(x-20,y-sprite_height-20,x+(20*(CurrentHP/MaxHP)),y-sprite_height-15,c_green,c_lime,c_lime,c_green,false);
 }

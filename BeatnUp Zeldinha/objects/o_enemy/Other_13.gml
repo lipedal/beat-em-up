@@ -2,7 +2,7 @@
 switch(State){
  
     case "Idle":
-        sprite_index = s_enemy_idle;
+        sprite_index = SpriteIdle;
         break;
          
     case "PositionFront":
@@ -14,18 +14,18 @@ switch(State){
 	    }
      
 	    if(Speed != 0){
-	        sprite_index = s_enemy_walking
+	        sprite_index = SpriteWalking;
 	    }else{
-	        sprite_index = s_enemy_idle;
+	        sprite_index = SpriteIdle;
 	    }
     break;
 		
 	case "Hit":
-		sprite_index = s_enemy_hit;
+		sprite_index = SpriteHit;
 		break;
 		
 	case "Queueing":
-	sprite_index = s_enemy_idle;
+	sprite_index = SpriteIdle;
     if(point_distance(x,y,TargetX,TargetY) > 150){
         image_xscale = sign(TargetX-x);
     }else{
@@ -33,9 +33,9 @@ switch(State){
     }
      
     if(Speed != 0){
-        sprite_index = s_enemy_walking;
+        sprite_index = SpriteWalking;
     }else{
-        sprite_index = s_enemy_idle;
+        sprite_index = SpriteIdle;
     }
     break;
  
