@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "5d6a7000-0fca-44d1-b8c3-b60cb9b60be6",
+            "Value": {
+                "id": "e4de9421-babf-4cf9-8c10-d6fe42315230",
+                "resourcePath": "sprites\\shubilubi\\shubilubi.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5df32244-d4fb-46e5-8bb3-d9c9cc0a6b35",
             "Value": {
                 "id": "58cb7a3a-db17-4bab-b633-ade90bdacbc9",
