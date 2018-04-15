@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1c105b7a-5d0f-4dfb-b8a1-94106aa11b25",
+            "Value": {
+                "id": "77935692-a1cb-4050-9de0-a16ea75f98a7",
+                "resourcePath": "sprites\\s_speech_knife\\s_speech_knife.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f630b19-5223-4f46-a96e-2fca9656c886",
             "Value": {
                 "id": "a2932e6a-6515-406c-a9e7-48dcbd7b1f82",
@@ -76,6 +84,14 @@
                 "id": "f128da0f-2ead-444e-a609-0fe82a8ff8bc",
                 "resourcePath": "views\\1fc7956e-bbb2-4ab7-b85e-080c1bd43a13.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "211816e1-bbe3-4691-b9e9-159bef242644",
+            "Value": {
+                "id": "9af4cef8-80c6-4396-b83d-438842953804",
+                "resourcePath": "sprites\\s_empty\\s_empty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "40f97bc3-874a-4b9d-857a-40a6aff1a2ab",
+            "Value": {
+                "id": "fafc3d12-9f25-463c-a78f-6e4c84867d76",
+                "resourcePath": "sprites\\s_speech_change\\s_speech_change.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41539990-69d7-4de3-8fe1-433a2c73dc8f",
             "Value": {
                 "id": "438adece-b70d-45d6-a6f5-0873b31f30a4",
@@ -188,6 +212,14 @@
                 "id": "caa91c35-e716-4c61-b496-f2ee87b8fb6a",
                 "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "563343e5-b612-45a6-82b2-fbe4097bccc1",
+            "Value": {
+                "id": "43c9f1c2-1180-4c3e-9069-46551a8fc887",
+                "resourcePath": "sprites\\s_speech_sell500\\s_speech_sell500.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -639,6 +671,14 @@
             }
         },
         {
+            "Key": "d6ea515d-d046-4702-a0a7-ee5ba19d5e38",
+            "Value": {
+                "id": "9cdcfbb3-28e1-42dd-b542-0f222efbfaec",
+                "resourcePath": "sprites\\s_speech_elixir\\s_speech_elixir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d8bbe4e1-7308-4953-ac69-7ce7f6a594bc",
             "Value": {
                 "id": "aa5a7d36-4b75-47e6-8afb-1295f4724d12",
@@ -663,6 +703,14 @@
             }
         },
         {
+            "Key": "dcd3cf24-4b34-4ba4-8fe1-8c6e58126659",
+            "Value": {
+                "id": "76a9b1cf-c9eb-4850-8b19-652d786f498a",
+                "resourcePath": "sprites\\s_speech_sword\\s_speech_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0983a5c-3f91-4587-ba8b-caea0cb8dce5",
             "Value": {
                 "id": "512eccc6-c321-48d9-988f-f2fb90b4de91",
@@ -676,6 +724,14 @@
                 "id": "d4245031-dd94-4953-ad77-f3bdfd398990",
                 "resourcePath": "shaders\\sh_white\\sh_white.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "e2acab83-ecba-4087-9dee-e10589d49073",
+            "Value": {
+                "id": "57436370-6039-49a0-a893-5c6e86debc44",
+                "resourcePath": "views\\e2acab83-ecba-4087-9dee-e10589d49073.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -756,6 +812,14 @@
                 "id": "11416b6c-834d-4e9c-81f6-149b7346c41d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f62219e4-965a-45e9-b451-edcb884fd8f3",
+            "Value": {
+                "id": "b62fa420-ba84-4df0-9738-a1a8d0124f13",
+                "resourcePath": "sprites\\s_speech_pick\\s_speech_pick.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

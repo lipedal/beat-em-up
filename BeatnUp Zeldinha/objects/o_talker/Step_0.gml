@@ -1,3 +1,1 @@
-BubbleInstance = InstantiateBubble(x, y, 150, BubbleInstance, sprite_width, sprite_height);
-
-show_debug_message(BubbleInstance);
+BubbleInstance = InstantiateBubble(x, y, 150, BubbleInstance, sprite_width, sprite_height, SpeechAction, SpeechItem);

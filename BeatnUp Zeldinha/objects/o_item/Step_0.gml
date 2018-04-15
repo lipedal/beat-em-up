@@ -67,5 +67,3 @@ if (ObjectType=="weapon")
 }
 
 
-
-
