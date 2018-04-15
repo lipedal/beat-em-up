@@ -69,16 +69,16 @@ if (IsAttacking == false && IsHit = false)
 	if(XSpeed == 0 && YSpeed == 0 && OnGround == true)
 	{
 	    SpeedMod = 1;
-	    sprite_index = s_player_idle;
+	    sprite_index = idleSprite;
 	}
 	
-	else if((XSpeed!=0 || YSpeed != 0) && sprite_index!=s_player_walk && OnGround == true)
+	else if((XSpeed!=0 || YSpeed != 0) && sprite_index!=walkingSprite && OnGround == true)
 	{
-			sprite_index = s_player_walk;
+			sprite_index = walkingSprite;
 	}
 }
 else if(IsHit == true){
-    sprite_index = s_player_hit;
+    sprite_index = hitSprite;
 }
 
 //If the player is on the ground, this sets their GroundY variable to their current y position

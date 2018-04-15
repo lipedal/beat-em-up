@@ -1,6 +1,6 @@
 //Real Variables
 MaxHP = 100;
-SightRange = 400;
+SightRange = 200;
 Aggressiveness = 1;
 Speed = 2;
 Attack = 5;
@@ -19,3 +19,5 @@ SideMod= 1; //Which side the enemy is
 GroundY = y;
 
 AttackRange = sprite_width/2+o_player.sprite_width/2;
+
+test=false;

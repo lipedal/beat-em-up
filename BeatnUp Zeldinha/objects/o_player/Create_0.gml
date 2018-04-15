@@ -41,3 +41,7 @@ weapon01IdleSprite=s_player_arm;
 weapon02Attack=0;
 weapon02Knockback=0;
 weapon02IdleSprite=s_player_arm;
+
+walkingSprite=s_player_walk;
+hitSprite=s_player_hit;
+idleSprite=s_player_idle;

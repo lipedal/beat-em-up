@@ -2,13 +2,15 @@
 
 //ISSO QUE TA DANDO MERDA REVER ISSO
 //if(point_distance(x,y,TargetX,TargetY) > MaxSpeed)
-if (!((x>TargetX+5 && x<TargetX-5) && (y>TargetY+5 && y>TargetY-5)))
+if ((!( x > TargetX-MaxSpeed && x < TargetX+MaxSpeed)) || (!( y > TargetY-MaxSpeed && y < TargetY+MaxSpeed)))
 {
 	move_towards_point(TargetX,TargetY,Speed);
 	Speed = MaxSpeed;
 }
-else
+else{
 Speed=0;
+speed=0;
+}
 
 
 

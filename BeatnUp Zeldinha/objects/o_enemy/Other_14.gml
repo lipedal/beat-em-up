@@ -4,5 +4,5 @@
     //TargetX = random_range(o_player.x+60*SideMod, o_player.x+90*SideMod);
   //  TargetY = random_range(o_player.y-10, o_player.y+10);
 //}
-TargetX = o_player.x+75*SideMod;
+TargetX = o_player.x+50*SideMod;
 TargetY = o_player.y;

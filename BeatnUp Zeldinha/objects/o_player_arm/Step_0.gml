@@ -7,11 +7,15 @@ switch (State){
 		switch(weaponState)
 		{
 			case "Punch":
-			sprite_index = s_player_arm;
+			sprite_index = spritePunch;
 			break;
 			
 			case "Sword01":
-			sprite_index = s_player_arm_sword01;
+			sprite_index = spriteSword01;
+			break;
+			
+			case "knife01":
+			sprite_index = spriteKnife01;
 			break;
 		}
     
@@ -38,15 +42,15 @@ switch (State){
 		switch(weaponState)
 		{
 			case "Punch":
-			sprite_index = s_player_arm;
+			sprite_index = spritePunch;
 			break;
 			
 			case "sword01":
-			sprite_index = s_player_arm_sword01;
+			sprite_index = spriteSword01;
 			break;
 			
 			case "knife01":
-			sprite_index = s_player_arm_knife01;
+			sprite_index = spriteKnife01;
 			break;
 		}
 	
