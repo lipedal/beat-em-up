@@ -100,6 +100,17 @@ if (hascontrol && comboControl && (key_attack01 || key_attack02) && key_attack01
 	
 	comboControl=false;
 	o_player_arm.enablePunch=false;
-	o_player_arm.State="preAttacking";
+	
+	if (WeaponEquiped=="weapon01")
+	o_player_arm.save_sprite=weapon01IdleSprite;
+	if (WeaponEquiped=="weapon02")
+	o_player_arm.save_sprite=weapon02IdleSprite;
+	
+	if (key_attack01)
+	WeaponEquiped="weapon01";
+	else if (key_attack02)
+	WeaponEquiped="weapon02";
+	
+	o_player_arm.State="Attacking01";
 }
 

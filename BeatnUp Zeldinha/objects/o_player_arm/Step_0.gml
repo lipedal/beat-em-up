@@ -56,58 +56,29 @@ switch (State){
 	
 	break;
 	#endregion
-	#region //preAttacking
-	case "preAttacking":
-	
-	if (o_player.WeaponEquiped=="weapon01")
-	save_sprite=o_player.weapon01IdleSprite;
-	if (o_player.WeaponEquiped=="weapon02")
-	save_sprite=o_player.weapon02IdleSprite;
-	
-	if (o_player.key_attack01)
-	o_player.WeaponEquiped="weapon01";
-	else if (o_player.key_attack02)
-	o_player.WeaponEquiped="weapon02";
-	
-	
-	State="Attacking01";
-	break;
-	#endregion
 	#region//Attacking01
 	case "Attacking01":
 		switch(weaponState){
 			case "Punch":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_punch01;
-			//var MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spritePunchAttack01;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "Sword01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_sword01;
-			//var MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteSword01Attack01;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "knife01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_knife01;
-			//var MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteKnife01Attack01;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 		
 		}
@@ -120,11 +91,13 @@ switch (State){
 			alarm[0]=sprite_get_number(sprite_index)*animationSpeed;
 			alarm[1]=sprite_get_number(sprite_index)*animationSpeed+TimeToPunchAgain;
 		}
+		
 		if (enablePunch && (o_player.key_attack01 || o_player.key_attack02) && o_player.key_attack01!=o_player.key_attack02)
 		{
 			o_player.comboControl=false;
 			enablePunch=false;
 			alarm[1]=0;
+			oneTime=true;
 			State = "Attacking02";
 		}
 		
@@ -134,40 +107,25 @@ switch (State){
 	case "Attacking02":
 		switch(weaponState){
 			case "Punch":
-			var MyAttack=0;
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_punch02;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spritePunchAttack02;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "Sword01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_sword01;
-			var MyAttack=0;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteSword01Attack02;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "knife01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_knife01;
-			var MyAttack=0;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteKnife01Attack02;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 		
 		}
@@ -181,6 +139,7 @@ switch (State){
 			o_player.comboControl=false;
 			enablePunch=false;
 			alarm[1]=0;
+			oneTime=true;
 			State = "Attacking03";
 		}
 	break;
@@ -189,40 +148,25 @@ switch (State){
 	case "Attacking03":
 		switch(weaponState){
 			case "Punch":
-			var MyAttack=0;
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_punch03;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spritePunchAttack03;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "Sword01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_sword01;
-			var MyAttack=0;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteSword01Attack03;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 			case "knife01":
-			if (alarm[0]<=0 && !enablePunch)
-			sprite_index = s_player_arm_attack_knife01;
-			var MyAttack=0;
-			//MyAttack = instance_create_layer(x,y,"Instances",obj_attack_basic_punch);
-			//if(MyAttack != 0)
-			//{
-			//    MyAttack.image_xscale = image_xscale;
-			//    MyAttack.image_speed = image_speed;
-			//    MyAttack.Owner = "Player";			
-			//}
+			if (oneTime==true){
+				sprite_index = spriteKnife01Attack03;
+				AttackCreation(5,1,sprite_get_number(sprite_index),0,"Player");
+				oneTime=false;
+			}
 			break;
 		
 		}
@@ -236,6 +180,7 @@ switch (State){
 			
 			o_player.comboControl=false;
 			enablePunch=false;
+			oneTime=true;
 			alarm[1]=0;
 			State = "Attacking04";
 		}
@@ -265,7 +210,7 @@ switch (State){
 		
 		if (enablePunch && (o_player.key_attack01 || o_player.key_attack02) && o_player.key_attack01!=o_player.key_attack02)
 		{
-			
+			oneTime=true;
 			o_player.comboControl=false;
 			enablePunch=false;
 			State = "Attacking05";

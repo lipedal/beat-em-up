@@ -1,5 +1,5 @@
 //Real Variables
-MaxHP = 100;
+MaxHP = 50;
 SightRange = 200;
 Aggressiveness = 1;
 Speed = 2;

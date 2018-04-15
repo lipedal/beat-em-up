@@ -2,6 +2,9 @@ depth = -1*y;
  
 Damage = 10;
 StunLength = 8;
+knockback=0;
 Owner = "";
-DMGFrame = 3;
-knockback = 10;
+hitbox=0;
+frameNumber=0;
+
+onetime=true;
