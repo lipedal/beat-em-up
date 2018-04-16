@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3bb1ca51-4b31-44a9-8bab-879b2e48f4ea",
+            "Value": {
+                "id": "d84a143f-2ee7-419c-a9ab-476df936a89d",
+                "resourcePath": "sounds\\snd_talk01\\snd_talk01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "40f97bc3-874a-4b9d-857a-40a6aff1a2ab",
             "Value": {
                 "id": "fafc3d12-9f25-463c-a78f-6e4c84867d76",
@@ -180,14 +188,6 @@
                 "id": "552ebdde-9486-49b2-b81e-359b7e9e22b5",
                 "resourcePath": "sprites\\s_enemy_hit\\s_enemy_hit.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4a1daebf-565c-4f55-9b3f-b32e74644e01",
-            "Value": {
-                "id": "67f6ee76-f782-4925-aec4-e8bd34b9072a",
-                "resourcePath": "objects\\o_test\\o_test.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "66c6e837-0381-4faf-99ad-2c931f01c6ac",
+            "Value": {
+                "id": "e99e4a37-653b-48ae-8243-fad82ee01c72",
+                "resourcePath": "sounds\\snd_talk02\\snd_talk02.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6c6d00b9-6ac5-4ef2-851d-df039fcf5f71",
             "Value": {
                 "id": "668e623b-492e-4481-a5f1-a3b97311f246",
@@ -319,14 +327,6 @@
             }
         },
         {
-            "Key": "74519604-9d0c-459e-994c-e57add61b9c5",
-            "Value": {
-                "id": "3e9df89a-d865-4b74-ba03-d6479b60af31",
-                "resourcePath": "objects\\o_weapon_controller\\o_weapon_controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7546cf48-3ac0-4243-a471-32cc6012e9df",
             "Value": {
                 "id": "b049959a-6bbd-490d-a3d5-eee7e7a0160f",
@@ -356,6 +356,14 @@
                 "id": "80ddc3ab-5ddd-4b58-9039-b8d48f6f02c7",
                 "resourcePath": "objects\\o_balloon\\o_balloon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "814ac23b-ebb8-4b26-9c8e-a4c5acd763ac",
+            "Value": {
+                "id": "cb469172-800d-4e93-9812-344c8f862483",
+                "resourcePath": "sounds\\snd_talk04\\snd_talk04.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "9f62774c-9654-4187-8f72-03d38d99eab2",
+            "Value": {
+                "id": "db26e8bd-1036-405f-9789-b511bc85fa46",
+                "resourcePath": "sounds\\snd_talk03\\snd_talk03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a1f93a11-3e7e-4118-84d2-681ac523e20a",
             "Value": {
                 "id": "9d4daf21-3e1a-4fbd-8a78-e1a50b37d27b",
@@ -492,6 +508,14 @@
                 "id": "79e06554-4f1a-4a51-934f-172a4b3cf80f",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa6c1e60-c024-4fe5-af31-7a3f8a4d07dd",
+            "Value": {
+                "id": "1d56d93d-ae8a-4f92-b0c7-b1da35b4a929",
+                "resourcePath": "sounds\\snd_talk05\\snd_talk05.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -647,6 +671,14 @@
             }
         },
         {
+            "Key": "cd91a8c3-87ca-409d-91cf-7221ee87c3f9",
+            "Value": {
+                "id": "fe4442af-81e5-4af4-bd15-d1046242b98d",
+                "resourcePath": "objects\\o_item_pickable\\o_item_pickable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d3d85751-4d98-4fc1-83ea-0f2c64105bea",
             "Value": {
                 "id": "837832fe-d4ab-4484-ba5f-c1e8b15e5691",
@@ -735,6 +767,14 @@
             }
         },
         {
+            "Key": "e3b66c17-0dd8-4e70-8724-4f33843130fb",
+            "Value": {
+                "id": "d8d59680-33d1-48c9-ab40-e639e3cfa501",
+                "resourcePath": "fonts\\f_tico\\f_tico.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "0dd269db-1785-4c46-9ff6-d9c314387e6d",
@@ -788,6 +828,14 @@
                 "id": "04d9667b-11f2-41aa-8349-923e4eae35df",
                 "resourcePath": "views\\f0b4036b-4d4b-4aff-9e91-6d327984beb1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f1fffa09-d9c1-45ae-a6d2-be3460afe02d",
+            "Value": {
+                "id": "b9497d3a-957e-4a42-ae06-be92d665f174",
+                "resourcePath": "objects\\o_text\\o_text.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,9 +1,10 @@
+weaponState=o_player.WeaponEquipedName;
 switch (State){
 	
     #region //Case Stopped
 	case "Stopped":
 		y=o_player.y+originDifference;
-		
+		oneTime=true;
 		switch(weaponState)
 		{
 			case "Punch":
@@ -17,8 +18,8 @@ switch (State){
 			case "knife01":
 			sprite_index = spriteKnife01;
 			break;
+			
 		}
-    
 	break;
 	#endregion
 	#region //Case Moving
@@ -219,7 +220,6 @@ switch (State){
 	#endregion
 }
 
-weaponState=o_player.WeaponEquipedName;
 x=o_player.x;
 depth = -1*o_player.y-2;
 image_xscale=o_player.image_xscale;

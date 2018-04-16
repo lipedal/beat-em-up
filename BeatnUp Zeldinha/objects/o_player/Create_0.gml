@@ -17,6 +17,7 @@ OnGround = true;
 GroundY = y;
 hascontrol=true;
 alive=true;
+seeBalloon=false;
 
 
 image_speed = .75;
@@ -25,11 +26,14 @@ room_speed=60;
 
 global.hitbox=false;
 global.gamepad=false;
+global.range=false;
 instance_create_layer(x,y,"Instances",o_player_arm)
 
 #region //weapons type
 weapon01="Punch";
 weapon02="Punch";
+weapon01Object=0;
+weapon02Object=0;
 WeaponEquiped="weapon01";
 WeaponEquipedName="Punch";
 #endregion

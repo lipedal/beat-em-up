@@ -1,6 +1,4 @@
-OnGround = false;
-GroundY = y;
-
+depth = -2000;
 image_speed = .75;
 
 image_yscale = 0;

@@ -6,3 +6,5 @@ ObjectType="weapon";
 Name="knife01";
 StateType="drop";
 idleSprite=s_player_arm_knife01;
+
+SpeechItem = s_speech_knife;

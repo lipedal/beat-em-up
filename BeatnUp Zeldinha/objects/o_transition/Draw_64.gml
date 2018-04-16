@@ -12,3 +12,6 @@ draw_text(50,50,"HITBOX ACTIVATED");
 
 if(global.gamepad)
 draw_text(50,70,"GAMEPAD ACTIVATED");
+
+if(global.range)
+draw_text(50,70,"RANGE ACTIVATED");

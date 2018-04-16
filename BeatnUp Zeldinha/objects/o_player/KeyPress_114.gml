@@ -1,1 +1,4 @@
-instance_destroy(o_enemy01);
+if (global.range)
+global.range=false;
+else
+global.range=true;

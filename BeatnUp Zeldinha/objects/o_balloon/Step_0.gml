@@ -1,11 +1,5 @@
 sprite_index = s_speech;
 
-if(OnGround == true)
-{
-    GroundY = y;
-}
-depth = -1*GroundY;
-
 if MustDestroy
 {
 	if image_xscale > 0

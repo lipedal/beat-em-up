@@ -37,31 +37,36 @@ else if (StateType=="bounce")
 
 if (ObjectType=="weapon")
 {
-	if(position_meeting(x,y,o_player))
+	if(point_distance(x, y, o_player.x, o_player.y) < 50)
 	{
-		if (o_player.key_attack01)
+		if (o_player.key_interact)
 		{
-			if (o_player.weapon01=="Punch")
+			if (o_player.WeaponEquipedName!="Punch")
 			{
-				o_player.WeaponEquipedName=Name;
-				o_player.weapon01=Name;
-				o_player.weapon01Attack=attack;
-				o_player.weapon01Knockback=knockback;
-				o_player.weapon01IdleSprite=idleSprite;
-				instance_destroy();
+				if(o_player.WeaponEquiped="weapon01")
+				instance_create_layer(x,y,"Item",o_player.weapon01Object);
+				else if(o_player.WeaponEquiped="weapon02")
+				instance_create_layer(x,y,"Item",o_player.weapon02Object);
 			}
-		}
-		if (o_player.key_attack02)
-		{
-			if (o_player.weapon02=="Punch")
-			{
 				o_player.WeaponEquipedName=Name;
-				o_player.weapon02=Name;
-				o_player.weapon02Attack=attack;
-				o_player.weapon02Knockback=knockback;
-				o_player.weapon02IdleSprite=idleSprite;
+				if (o_player.WeaponEquiped=="weapon01")
+				{
+					o_player.weapon01=Name;
+					o_player.weapon01Attack=attack;
+					o_player.weapon01Knockback=knockback;
+					o_player.weapon01IdleSprite=idleSprite;
+					o_player.weapon01Object=object_index;
+				}
+				else if (o_player.WeaponEquiped=="weapon02")
+				{
+					o_player.weapon02=Name;
+					o_player.weapon02Attack=attack;
+					o_player.weapon02Knockback=knockback;
+					o_player.weapon02IdleSprite=idleSprite;
+					o_player.weapon02Object=object_index;
+				}
 				instance_destroy();
-			}
+			
 		}
 	}
 }

@@ -7,9 +7,9 @@ key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
-key_interact = keyboard_check(ord("C"));
-key_attack01 = keyboard_check(ord("J"));
-key_attack02 = keyboard_check(ord("K"));
+key_interact = keyboard_check_pressed(ord("L"));
+key_attack01 = keyboard_check_pressed(ord("J"));
+key_attack02 = keyboard_check_pressed(ord("K"));
 //Gamepad
 if (global.gamepad=true)
 {
