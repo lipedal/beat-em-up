@@ -2,7 +2,7 @@
     "id": "a1f93a11-3e7e-4118-84d2-681ac523e20a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_talker",
+    "name": "o_seller01",
     "eventList": [
         {
             "id": "482a8f3d-b862-44f6-8af9-ff7fb0aa4031",

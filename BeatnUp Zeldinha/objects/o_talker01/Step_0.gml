@@ -1,0 +1,1 @@
+TalkInstance = InstantiateTalk(x, y, talkRange, TalkInstance, sprite_width, sprite_height, talkSpeed, talkText);

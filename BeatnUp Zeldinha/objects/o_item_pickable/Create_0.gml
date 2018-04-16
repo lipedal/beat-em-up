@@ -5,6 +5,6 @@
 event_inherited();
 
 BubbleInstance = 0;
-bubbleRange = 150;
+bubbleRange = 50;
 SpeechAction = s_empty;
 SpeechItem = s_empty;

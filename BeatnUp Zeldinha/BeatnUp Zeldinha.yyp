@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3c1a3dcc-2d0a-41b3-b866-5bece6e6e4ae",
+            "Value": {
+                "id": "f9fbcd7a-d524-4498-8ec7-ea46890b5aee",
+                "resourcePath": "sprites\\s_bubble_tip\\s_bubble_tip.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40f97bc3-874a-4b9d-857a-40a6aff1a2ab",
             "Value": {
                 "id": "fafc3d12-9f25-463c-a78f-6e4c84867d76",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "93f06349-bb33-47b4-b38f-fd8103b0c7e0",
+            "Value": {
+                "id": "b28489db-2a2a-4218-a2e2-c78b140a3338",
+                "resourcePath": "objects\\o_talker01\\o_talker01.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95cad870-e010-4b83-9e6c-512d1127fcc2",
             "Value": {
                 "id": "f25f0d19-19f3-4a48-9da6-18f22ce7882c",
@@ -482,7 +498,7 @@
             "Key": "a1f93a11-3e7e-4118-84d2-681ac523e20a",
             "Value": {
                 "id": "9d4daf21-3e1a-4fbd-8a78-e1a50b37d27b",
-                "resourcePath": "objects\\o_talker\\o_talker.yy",
+                "resourcePath": "objects\\o_seller01\\o_seller01.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -679,6 +695,14 @@
             }
         },
         {
+            "Key": "ce2341f2-e5b2-4c89-8bcf-c9faea85804e",
+            "Value": {
+                "id": "68c42aa4-0ff6-4555-b2d4-cb326fd8040d",
+                "resourcePath": "scripts\\InstantiateTalk\\InstantiateTalk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d3d85751-4d98-4fc1-83ea-0f2c64105bea",
             "Value": {
                 "id": "837832fe-d4ab-4484-ba5f-c1e8b15e5691",
@@ -770,7 +794,7 @@
             "Key": "e3b66c17-0dd8-4e70-8724-4f33843130fb",
             "Value": {
                 "id": "d8d59680-33d1-48c9-ab40-e639e3cfa501",
-                "resourcePath": "fonts\\f_tico\\f_tico.yy",
+                "resourcePath": "fonts\\f_talk\\f_talk.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -916,6 +940,7 @@
         "520a44b3-b16c-4d4b-82c7-842d88bb0a80",
         "32a2a0a7-90ae-414b-92f7-7ff397b51827",
         "3a25ed77-dc29-43de-9d5e-a9e33a692d16",
+        "ce2341f2-e5b2-4c89-8bcf-c9faea85804e",
         "6c6d00b9-6ac5-4ef2-851d-df039fcf5f71"
     ],
     "tutorial": ""

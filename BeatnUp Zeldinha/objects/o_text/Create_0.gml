@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
- 
+
+depth = -2000;
+
 //Speed at which text is drawn to the screen every frame
 txtSpeed = 0.4;
  
@@ -8,7 +10,7 @@ txtSpeed = 0.4;
 txtLetters = 0;
  
 //The whole string we actually want to draw
-txtString = "Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.Leave. Now.";
+txtString = "This is a test text.";
  
 //Get the length of the string
 txtLength = string_length(txtString);
@@ -31,3 +33,5 @@ speechSpeed=5/txtSpeed;
 alarm[0]=1;
 
 pitchValue=4;
+
+MustDestroy = false;

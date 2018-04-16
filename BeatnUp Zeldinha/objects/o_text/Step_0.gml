@@ -1,5 +1,7 @@
 //Step Event
  
+txtLength = string_length(txtString);
+ 
 txtLetters += txtSpeed;
  
 txtCurrent = string_copy(txtString, 1, floor(txtLetters));
@@ -69,4 +71,9 @@ if (speech && !(txtLetters >= txtLength))
 
 	alarm[0]=speechSpeed;
 	speech=false;
+}
+
+if MustDestroy
+{
+	instance_destroy();
 }

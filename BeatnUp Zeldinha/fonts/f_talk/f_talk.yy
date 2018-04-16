@@ -2,7 +2,7 @@
     "id": "e3b66c17-0dd8-4e70-8724-4f33843130fb",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "f_tico",
+    "name": "f_talk",
     "AntiAlias": 1,
     "TTFName": "",
     "bold": false,
