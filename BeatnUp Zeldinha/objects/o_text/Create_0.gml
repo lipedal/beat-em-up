@@ -32,6 +32,7 @@ speech=false;
 speechSpeed=5/txtSpeed;
 alarm[0]=1;
 
-pitchValue=4;
+pitchBase=4;
+pitchMulti=1;
 
 MustDestroy = false;

@@ -1,4 +1,4 @@
-/// @desc InstantiateTalk(objx,objy,dist,talkInstance,sprwid,sprhei,spd,txt)
+/// @desc InstantiateTalk(objx,objy,dist,talkInstance,sprwid,sprhei,spd,pitch,txt)
 /// @arg objx is the X position of caster
 /// @arg objy is the Y position of caster
 /// @arg dist is the radius between caster and player for the talk to appear
@@ -6,6 +6,7 @@
 /// @arg sprwid is the caster's sprite width
 /// @arg sprhei is the caster's sprite height
 /// @arg speed is the text speed
+/// @arg pitch is the voice pitch
 /// @arg text is the text to be printed
 
 var objx = argument[0];
@@ -15,7 +16,8 @@ var talkInstance = argument[3];
 var sprwid = argument[4];
 var sprhei = argument[5];
 var spd = argument[6];
-var txt = argument[7];
+var pitch = argument[7];
+var txt = argument[8];
 
 var px, py;
 px = instance_nearest(objx, objy, o_player).x;
@@ -28,6 +30,7 @@ if (talkInstance == 0)
 	   talkInstance = instance_create_layer(objx, objy-sprhei-5, 1, o_text);
 	   talkInstance.txtString = txt;
 	   talkInstance.txtSpeed = spd;
+	   talkInstance.pitchMulti = pitch;
 	   o_player.seeBalloon=true;
 	   return talkInstance;
 	}

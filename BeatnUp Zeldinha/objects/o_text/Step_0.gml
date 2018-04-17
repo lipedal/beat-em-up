@@ -4,8 +4,8 @@ txtLength = string_length(txtString);
  
 txtLetters += txtSpeed;
  
-txtCurrent = string_copy(txtString, 1, floor(txtLetters));
- 
+txtCurrent = string_copy(txtString, 1, round(txtLetters));
+
  
 txtWidth = string_width(txtCurrent);
    
@@ -50,20 +50,22 @@ if (speech && !(txtLetters >= txtLength))
 {
 	var sound=irandom_range(1,4);
 
+	var pitch = pitchBase * pitchMulti;
+
 	if(sound==1){
-	audio_sound_pitch(snd_talk01, pitchValue*txtSpeed);
+	audio_sound_pitch(snd_talk01, pitch*txtSpeed);
 	audio_play_sound(snd_talk01,1,false);}
 
 	else if(sound==2){
-	audio_sound_pitch(snd_talk02, pitchValue*txtSpeed);
+	audio_sound_pitch(snd_talk02, pitch*txtSpeed);
 	audio_play_sound(snd_talk02,1,false);}
 
 	else if(sound==3){
-	audio_sound_pitch(snd_talk03, pitchValue*txtSpeed);
+	audio_sound_pitch(snd_talk03, pitch*txtSpeed);
 	audio_play_sound(snd_talk03,1,false);}
 
 	else if(sound==4){
-	audio_sound_pitch(snd_talk04, pitchValue*txtSpeed);
+	audio_sound_pitch(snd_talk04, pitch*txtSpeed);
 	audio_play_sound(snd_talk04,1,false);}
 
 	//else if(sound==5)
