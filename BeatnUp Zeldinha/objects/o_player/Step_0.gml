@@ -37,6 +37,26 @@ if (hascontrol && comboControl)
 	o_player_arm.State="Stopped";
 }
 
+//Horizontal Collision
+if (place_meeting(x+XSpeed,y,o_parede))
+{
+	while (!place_meeting(x+sign(XSpeed),y,o_parede))
+	{
+		x+=sign(XSpeed);
+	}
+	XSpeed=0;
+}
+
+//Vertical Speed
+if (place_meeting(x,y+YSpeed,o_parede))
+{
+	while (!place_meeting(x,y+sign(YSpeed),o_parede))
+	{
+		y+=sign(YSpeed);
+	}
+	YSpeed=0;
+}
+
 if (IsAttacking == false && IsHit = false)
 {
          
